@@ -81,9 +81,14 @@ body {
   color: #ef417b;
   font-size: 0.8rem;
 }
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
 .submit-btn {
   display: block;
-  /* margin-left: auto; */
   border: none;
   outline: none;
   background: #ef417b;
@@ -95,9 +100,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .signup.forgot-pw {
   color: inherit;
 }
+
 #forgot-pw {
   position: absolute;
   display: flex;
@@ -108,8 +115,7 @@ body {
   right: 0;
   height: 0;
   z-index: 1;
-  background: url("../couples-login/assets/jan-kahanek-fVUl6kzIvLg-unsplash.jpg")
-    no-repeat center;
+  background: #f1f3f2;
   background-size: cover;
   opacity: 0;
   transition: 0.6s;
@@ -118,9 +124,7 @@ body {
   height: 100%;
   opacity: 1;
 }
-a:visited #forgot-pw {
-  color: #ef417b;
-}
+
 .close {
   position: absolute;
   right: 1.5rem;
